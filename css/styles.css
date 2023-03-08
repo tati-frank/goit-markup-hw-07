@@ -282,6 +282,8 @@ img {
 .advantages-list {
   display: flex;
   gap: 72px;
+  flex-wrap: wrap;
+  max-width: 320px;
 }
 
 .advantages-item {
