@@ -1,0 +1,50 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  /*---------------------HERO-------------------------- */
+  .hero {
+    background-color: var(--dark-headings-navy);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images-background/tablet-hero-background.jpg);
+  }
+  .hero-header {
+    font-size: 56px;
+    line-height: 1.07;
+
+    max-width: 494px;
+    margin-bottom: 40px;
+  }
+}
+
+/*------------------ADVANTAGES---------------------- */
+
+.advantages-list {
+  display: flex;
+  row-gap: 24px;
+  column-gap: 72px;
+  flex-wrap: wrap;
+}
+.advantages-item {
+  text-align: left;
+}
+.advantages li {
+  width: calc((100% - 24px) / 2);
+  display: inline-block;
+}
+
+/*-----------------OUR TEAM SECTION--------------------- */
+.team .list {
+  display: flex;
+  row-gap: 24px;
+  column-gap: 64px;
+  flex-wrap: wrap;
+}
+.team-card {
+  background-color: var(--white);
+  width: 264px;
+}
