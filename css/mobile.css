@@ -6,4 +6,8 @@
   .advantages-item {
     text-align: center;
   }
+
+  .modal {
+    width: 408px;
+  }
 }

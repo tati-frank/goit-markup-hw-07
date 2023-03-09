@@ -3,6 +3,99 @@
     max-width: 768px;
   }
 
+  /*------------------HEADER---------------------- */
+
+  .header-logo {
+    margin-right: 120px;
+  }
+  .navigation .list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .navigation-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-headings-navy);
+    position: relative;
+
+    display: block;
+    padding: 24px 0;
+
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--timing-function);
+  }
+  .navigation-link:hover,
+  .navigation-link:focus {
+    color: var(--btn-active-ocean);
+  }
+
+  .current::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+
+    border-radius: 2px;
+    background-color: var(--btn-active-ocean);
+  }
+
+  .address {
+    margin-left: auto;
+  }
+
+  .address .list {
+    display: block;
+    margin-left: auto;
+    padding: 24px 0 10px;
+  }
+
+  .address-email {
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.33;
+    color: var(--body-text-slate);
+    letter-spacing: 0.02em;
+
+    display: block;
+    padding-bottom: 4px;
+
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--timing-function);
+  }
+  .address-email:hover,
+  .address-email:focus {
+    color: var(--btn-active-ocean);
+  }
+
+  .address-phone-nr {
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.33;
+    color: var(--body-text-slate);
+    letter-spacing: 0.02em;
+
+    display: block;
+
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--timing-function);
+  }
+  .address-phone-nr:hover,
+  .address-phone-nr:focus {
+    color: var(--btn-active-ocean);
+  }
+
+  .menu-button {
+    display: none;
+  }
+
   /*---------------------HERO-------------------------- */
   .hero {
     background-color: var(--dark-headings-navy);
@@ -10,7 +103,19 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images-background/tablet-hero-background.jpg);
+      url(../images-background/tablet-hero-background.jpeg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images-background/tablet-hero-background-2x.jpeg);
+    }
   }
   .hero-header {
     font-size: 56px;

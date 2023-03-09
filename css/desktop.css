@@ -2,6 +2,25 @@
   .container {
     max-width: 1158px;
   }
+  /*------------------HEADER---------------------- */
+  .address .list {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+  }
+  .address-email {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .address-phone-nr {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .menu-button {
+    display: none;
+  }
 
   /* ----------------HERO----------------- */
   .hero {
@@ -11,6 +30,19 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images-background/desktop-hero-background.jpeg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images-background/desktop-hero-background-2x.jpeg);
+    }
   }
   .hero-header {
     margin-bottom: 48px;
@@ -120,4 +152,15 @@
   .subscribe-footer {
     margin-left: 80px;
   }
+
+  /*------------------FILTER BUTTONS---------------------- */
+
+  .portfolio .list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+  }
+
+  /*-----------------PORTFOLIO CARDS--------------------- */
 }
