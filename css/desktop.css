@@ -1,6 +1,6 @@
-@media screen and (min-width 1200px) {
+@media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    width: 1200px;
   }
 
   /* ----------------HERO----------------- */
@@ -19,13 +19,13 @@
   /*------------------ADVANTAGES---------------------- */
 
   .advantages li {
-    max-width: 269px;
     display: inline-block;
   }
 
   .advantages-list {
     display: flex;
     gap: 24px;
+    flex-wrap: nowrap;
   }
 
   .advantages-container {
@@ -73,7 +73,6 @@
 
   /* -------------------OUR TEAM SECTION--------------- */
 
-
   .team .list {
     display: flex;
     gap: 24px;
@@ -84,7 +83,8 @@
     width: calc((100% - 102px) / 4);
   }
 
-.team-card {
-  background-color: var(--white);
-  width: calc((100% - 72px) / 4);
+  .team-card {
+    background-color: var(--white);
+    width: calc((100% - 72px) / 4);
+  }
 }

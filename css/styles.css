@@ -252,8 +252,8 @@ img {
   background-size: cover;
 
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
+  padding-bottom: 112px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -283,9 +283,10 @@ img {
   display: flex;
   gap: 72px;
   flex-wrap: wrap;
-  max-width: 320px;
+  width: 100%;
 }
-
+.advantages-unit {
+}
 .advantages-item {
   font-weight: 700;
   font-size: 36px;
@@ -320,18 +321,17 @@ img {
   background-color: var(--light-background-cloud);
 }
 .team-wrap {
-  margin-left: 82px;
-  margin-right: 82px;
 }
-.team .list {
+.team-list {
   display: flex;
   gap: 72px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .team-card {
   background-color: var(--white);
-  width: 100%;
+  width: 264px;
 }
 
 .team-header {

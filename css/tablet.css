@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    width: 768px;
   }
 
   /*---------------------HERO-------------------------- */
@@ -19,32 +19,34 @@
     max-width: 494px;
     margin-bottom: 40px;
   }
-}
 
-/*------------------ADVANTAGES---------------------- */
+  /*------------------ADVANTAGES---------------------- */
 
-.advantages-list {
-  display: flex;
-  row-gap: 24px;
-  column-gap: 72px;
-  flex-wrap: wrap;
-}
-.advantages-item {
-  text-align: left;
-}
-.advantages li {
-  width: calc((100% - 24px) / 2);
-  display: inline-block;
-}
+  .advantages-list {
+    display: flex;
+    column-gap: 24px;
+    row-gap: 72px;
+    flex-wrap: wrap;
+  }
+  .advantages-item {
+    text-align: left;
+  }
 
-/*-----------------OUR TEAM SECTION--------------------- */
-.team .list {
-  display: flex;
-  row-gap: 24px;
-  column-gap: 64px;
-  flex-wrap: wrap;
-}
-.team-card {
-  background-color: var(--white);
-  width: 264px;
+  .advantages-unit {
+    width: calc((100% - 24px) / 2);
+    display: inline-block;
+  }
+
+  /*-----------------OUR TEAM SECTION--------------------- */
+  .team .list {
+    display: flex;
+    column-gap: 24px;
+    row-gap: 64px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .team-card {
+    background-color: var(--white);
+    width: 264px;
+  }
 }
