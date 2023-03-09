@@ -1,6 +1,6 @@
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
+    max-width: 1158px;
   }
 
   /* ----------------HERO----------------- */
@@ -18,18 +18,16 @@
 
   /*------------------ADVANTAGES---------------------- */
 
-  .advantages li {
-    display: inline-block;
-  }
-
   .advantages-list {
     display: flex;
     gap: 24px;
     flex-wrap: nowrap;
   }
-
+  .advantages-unit {
+    width: calc((100% - 62px) / 4);
+    display: inline-block;
+  }
   .advantages-container {
-    width: 264px;
     height: 112px;
     background-color: var(--light-background-cloud);
     border-radius: 4px;
@@ -51,8 +49,9 @@
 
   /* ---------------WHAT WE DO SECTION--------------- */
   .what-we-do {
-    display: flex;
+    display: block;
   }
+
   .what-we-do .list {
     display: flex;
     gap: 24px;
@@ -86,5 +85,39 @@
   .team-card {
     background-color: var(--white);
     width: calc((100% - 72px) / 4);
+  }
+
+  /* ----------------CLIENTS--------------------- */
+
+  .clients-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+  }
+
+  .clients > .container {
+    max-width: 1158px;
+  }
+
+  /*------------------FOOTER---------------------- */
+
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer > .container {
+    flex-wrap: nowrap;
+    max-width: 1158px;
+  }
+
+  .footer-text {
+    max-width: 264px;
+  }
+
+  .social-media-footer {
+    margin-left: 120px;
+  }
+  .subscribe-footer {
+    margin-left: 80px;
   }
 }

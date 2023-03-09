@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
   }
 
   /*---------------------HERO-------------------------- */
@@ -48,5 +48,55 @@
   .team-card {
     background-color: var(--white);
     width: 264px;
+  }
+
+  /* ----------------CLIENTS--------------------- */
+
+  .clients-item {
+    width: calc((100% - 48px) / 3);
+    height: 88px;
+  }
+  .clients-list {
+    column-gap: 24px;
+  }
+
+  .clients > .container {
+    max-width: 552px;
+  }
+
+  /*------------------FOOTER---------------------- */
+
+  .footer .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-logo {
+    justify-content: left;
+  }
+
+  .footer > .container {
+    max-width: 556px;
+  }
+
+  .logo-wrap {
+    margin: 0 0 72px 0;
+  }
+
+  .social-media-footer {
+    margin-left: 24px;
+  }
+
+  .subscribe-input {
+    width: 264px;
+  }
+
+  .subscribe-form {
+    display: flex;
+    gap: 24px;
+  }
+
+  .subscribe-footer {
+    text-align: left;
   }
 }
