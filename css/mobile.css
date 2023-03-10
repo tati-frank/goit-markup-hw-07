@@ -3,8 +3,36 @@
     max-width: 480px;
   }
 
+  .policy-text {
+    flex-wrap: no-wrap;
+  }
+
+  .policy-text-focus {
+    padding-left: 5px;
+  }
+
+  .mob-menu-phone-nr {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    margin-bottom: 40px;
+  }
+
+  .mob-menu-email {
+    margin-bottom: 48px;
+  }
+
+  .mob-menu-social-media {
+    display: flex;
+    gap: 56px;
+  }
+
   .advantages-item {
     text-align: center;
+  }
+
+  .subscribe-input {
+    width: 396px;
   }
 
   .modal {

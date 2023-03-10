@@ -127,6 +127,10 @@
 
   /*------------------ADVANTAGES---------------------- */
 
+  .advantages {
+    background-color: var(--light-background-cloud);
+  }
+
   .advantages-list {
     display: flex;
     column-gap: 24px;
@@ -156,6 +160,10 @@
   }
 
   /* ----------------CLIENTS--------------------- */
+
+  .clients {
+    background-color: var(--light-background-cloud);
+  }
 
   .clients-item {
     width: calc((100% - 48px) / 3);
@@ -190,6 +198,7 @@
 
   .social-media-footer {
     margin-left: 24px;
+    text-align: left;
   }
 
   .subscribe-input {

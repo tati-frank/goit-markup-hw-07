@@ -237,11 +237,11 @@ img {
 .mob-menu-phone-nr {
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
-  line-height: 1.11;
+  font-size: 24px;
+  line-height: 1.33;
   text-transform: capitalize;
   color: var(--body-text-slate);
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   display: block;
 }
 .mob-menu-email {
@@ -251,12 +251,12 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--body-text-slate);
-  margin-bottom: 48px;
+  margin-bottom: 38px;
   display: block;
 }
 .mob-menu-social-media {
   display: flex;
-  gap: 56px;
+  gap: 36px;
 }
 .mob-menu-social-item {
   width: 40px;
@@ -618,7 +618,7 @@ img {
 }
 
 .subscribe-input {
-  width: 396px;
+  width: 290px;
   height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -826,6 +826,7 @@ img {
   letter-spacing: 0.04em;
   color: #757575;
   display: flex;
+  flex-wrap: wrap;
 }
 .policy-text::before {
   content: '';
@@ -855,7 +856,7 @@ img {
 .policy-text-focus {
   text-decoration-line: underline;
   color: var(--primary-brand-iris);
-  padding-left: 5px;
+  padding-left: 25px;
 }
 .submit-modal {
   margin-left: auto;
