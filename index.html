@@ -247,27 +247,24 @@
           <h2 class="what-we-do-header">What are we doing</h2>
           <ul class="list">
             <li>
-              <picture>
-                <source srcset="./images/image-of-imac.jpeg 1px, ./images/image-of-imac-2px.jpeg 2px">
-              </picture>
-              <img src="./images/image-of-imac.jpeg" alt="iMac" width="360" />
+              <img 
+                src="./images/image-of-imac.jpeg" 
+                srcset="./images/image-of-imac.jpeg 1px, ./images/image-of-imac-2px.jpeg 2px" 
+                alt="iMac" 
+                width="360" />
             </li>
             <li>
-              <picture>
-                <source srcset="./images/image-of-iphone.jpeg 1px, ./images/image-of-iphone-2px.jpeg 2px">
-              </picture>
               <img
                 src="./images/image-of-pages.jpeg"
+                srcset="./images/image-of-iphone.jpeg 1px, ./images/image-of-iphone-2px.jpeg 2px"
                 alt="pages of an app"
                 width="360"
               />
             </li>
             <li>
-              <picture>
-                <source srcset="./images/image-of-iphone.jpeg 1px, ./images/image-of-iphone-2px.jpeg 2px">
-              </picture>
               <img
                 src="./images/image-of-iphone.jpeg"
+                srcset="./images/image-of-iphone.jpeg 1px, ./images/image-of-iphone-2px.jpeg 2px"
                 alt="iphone"
                 width="360"
               />
@@ -280,12 +277,10 @@
           <h2 class="team-header">Our Team</h2>
           <ul class="list team-list">
             <li class="team-card">
-              <picture>
-                <source>
-              </picture>
               <img
                 class="no-gap"
                 src="./images/product-designer.jpeg"
+                srcset="./images/product-designer.jpeg 1px, ./images/product-designer-2x.jpeg 2px"
                 alt="Product Designer"
                 width="264"
               />
@@ -349,12 +344,10 @@
               </div>
             </li>
             <li class="team-card">
-              <picture>
-                <source srcset="./images/frontend-developer.jpeg 1px, ./images/frontend-developer-2x.jpeg 2x,">
-              </picture>
               <img
                 class="no-gap"
                 src="images/frontend-developer.jpeg"
+                srcset="./images/frontend-developer.jpeg 1px, ./images/frontend-developer-2x.jpeg 2x"
                 alt="Frontend Developer"
                 width="264"
               />
@@ -418,10 +411,10 @@
               </div>
             </li>
             <li class="team-card">
-              <picture><source src="./images/marketing.jpeg 1px, ./images/marketing-2x.jpeg 2px"></picture>
               <img
                 class="no-gap"
                 src="./images/marketing.jpeg"
+                srcset="./images/marketing.jpeg 1px, ./images/marketing-2x.jpeg 2px"
                 alt="Marketing"
                 width="264"
               />
@@ -485,12 +478,10 @@
               </div>
             </li>
             <li class="team-card">
-              <picture>
-                <source srcset="./images/ui-designer.jpeg 1px, ./images/ui-designer-2px.jpeg 2px">
-              </picture>
               <img
                 class="no-gap"
                 src="./images/ui-designer.jpeg"
+                srcset="./images/ui-designer.jpeg 1px, ./images/ui-designer-2px.jpeg 2px"
                 alt="UI Designer"
                 width="264"
               />
@@ -675,13 +666,13 @@
           <form class="subscribe-form">
             <input class="subscribe-input" type="text" placeholder="E-mail" />
           <button class="subscribe-button pointer" type="submit">
-            <span class="subscribe-button-text">Subscribe
+            Subscribe
             <svg class="subscribe-icon" width="24" height="24">
               <use
                 href="./images-icons/symbol-defs-opitmised.svg#icon-subscribe-icon"
               ></use>
             </svg>
-            </span> 
+            
           </button>
           </form>
         </div>
@@ -703,7 +694,7 @@
         <h2 class="modal-header">
           Leave your contacts and we will call you back
         </h2>
-        <form action="">
+        <form>
           <label class="input-label" for="name">Name</label>
           <div class="input-wrap">
             <input

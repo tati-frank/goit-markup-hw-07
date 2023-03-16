@@ -642,6 +642,9 @@ img {
 }
 
 .subscribe-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-style: inherit;
   width: 165px;
   height: 40px;
